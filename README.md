@@ -1,61 +1,130 @@
-# ✊✋✌ Rock Paper Scissors Game
+# 🎮 Rock Paper Scissors Game using Flask
 
-A simple **Rock Paper Scissors** game developed in **Python**. The program allows the user to play against the computer by choosing Rock, Paper, or Scissors. The computer randomly selects its choice, and the winner is displayed based on the game rules.
+## Project Description
+This is a simple **Rock Paper Scissors** game developed using **Python** and the **Flask** web framework. The application allows users to play the game against the computer through a web browser.
+
+The computer randomly selects Rock, Paper, or Scissors, and the application displays the result of each round.
+
+---
 
 ## Features
+- Web-based interface
+- Play against the computer
+- Random computer choice
+- Displays Win, Lose, or Tie result
+- Attractive user interface using HTML and CSS
+- Easy to understand and modify
 
-- Play Rock, Paper, Scissors against the computer
-- Random computer choice using Python's `random` module
-- Displays the winner after each round
-- Simple and easy-to-understand Python code
-- Beginner-friendly project
+---
 
 ## Technologies Used
-
 - Python 3
-- Random Module
+- Flask
+- HTML
+- CSS
+
+---
 
 ## Project Structure
 
 ```
 RockPaperScissors/
-│── rock_paper_scissors.py
+│
+├── app.py
 └── README.md
 ```
 
-## How to Run
+---
 
-1. Install Python 3 on your computer.
-2. Download or clone this repository.
-3. Open a terminal or command prompt.
-4. Navigate to the project folder.
-5. Run the program:
+## Requirements
+
+- Python 3.x
+- Flask
+
+Install Flask using:
 
 ```bash
-python rock_paper_scissors.py
+pip install flask
 ```
 
-## Sample Output
+---
+
+## How to Run
+
+### Step 1
+Save the Python code as:
 
 ```
-Enter your choice (rock, paper, scissors): rock
-
-Computer chose: paper
-
-Computer Wins!
+app.py
 ```
+
+### Step 2
+
+Open Command Prompt or Terminal and navigate to the project folder.
+
+### Step 3
+
+Run the application:
+
+```bash
+python app.py
+```
+
+### Step 4
+
+Open your web browser and visit:
+
+```
+http://127.0.0.1:5000
+```
+
+---
+
+## How to Play
+
+1. Open the website.
+2. Click **Rock**, **Paper**, or **Scissors**.
+3. The computer randomly chooses its move.
+4. The result is displayed:
+   - 🎉 You Win!
+   - 💻 Computer Wins!
+   - 🤝 It's a Tie!
+
+5. Continue playing by clicking any button again.
+
+---
+
+## Game Rules
+
+- Rock beats Scissors.
+- Scissors beats Paper.
+- Paper beats Rock.
+- If both choices are the same, the game is a Tie.
+
+---
+
+## Output
+
+The application displays:
+
+- User Choice
+- Computer Choice
+- Game Result
+
+---
 
 ## Future Enhancements
 
 - Add score tracking
-- Play multiple rounds
-- Create a graphical user interface (GUI)
-- Add input validation and difficulty levels
+- Add sound effects
+- Add animations
+- Multiplayer mode
+- Difficulty levels
+- Store game history
+- Responsive mobile design
+
+---
 
 ## Author
 
-**Lavanya**
-
-## License
-
-This project is created for learning and educational purposes.
+Developed using **Python Flask** for learning web application development.
