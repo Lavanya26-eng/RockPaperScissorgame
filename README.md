@@ -1,42 +1,47 @@
-# 🎮 Rock Paper Scissors Game using Flask
+# 🎮 Rock Paper Scissors Web Application
 
-## Project Description
-This is a simple **Rock Paper Scissors** game developed using **Python** and the **Flask** web framework. The application allows users to play the game against the computer through a web browser.
+## Project Overview
 
-The computer randomly selects Rock, Paper, or Scissors, and the application displays the result of each round.
+Rock Paper Scissors is a simple web-based game developed using **Python** and the **Flask** framework. The application allows a player to compete against the computer. The computer randomly selects Rock, Paper, or Scissors, and the application determines the winner based on the standard game rules.
 
----
-
-## Features
-- Web-based interface
-- Play against the computer
-- Random computer choice
-- Displays Win, Lose, or Tie result
-- Attractive user interface using HTML and CSS
-- Easy to understand and modify
+The project provides an attractive web interface with score tracking for the player, computer, and tie games.
 
 ---
 
-## Technologies Used
+# Features
+
+- 🎮 Play Rock, Paper, or Scissors using buttons
+- 🤖 Computer generates a random choice
+- 🏆 Displays the game result
+- 📊 Live scoreboard
+- 😊 Emoji representation of choices
+- 🎨 Modern responsive user interface
+- 🌐 Runs locally in a web browser using Flask
+
+---
+
+# Technologies Used
+
 - Python 3
 - Flask
 - HTML
 - CSS
+- Jinja2 Template Engine
 
 ---
 
-## Project Structure
+# Project Structure
 
 ```
 RockPaperScissors/
 │
 ├── app.py
-└── README.md
+├── README.md
 ```
 
 ---
 
-## Requirements
+# Requirements
 
 - Python 3.x
 - Flask
@@ -49,10 +54,11 @@ pip install flask
 
 ---
 
-## How to Run
+# How to Run the Project
 
 ### Step 1
-Save the Python code as:
+
+Save the source code as:
 
 ```
 app.py
@@ -60,11 +66,13 @@ app.py
 
 ### Step 2
 
-Open Command Prompt or Terminal and navigate to the project folder.
+Open Command Prompt or Terminal.
+
+Navigate to the project directory.
 
 ### Step 3
 
-Run the application:
+Run the application.
 
 ```bash
 python app.py
@@ -80,51 +88,91 @@ http://127.0.0.1:5000
 
 ---
 
-## How to Play
+# How to Play
 
-1. Open the website.
-2. Click **Rock**, **Paper**, or **Scissors**.
-3. The computer randomly chooses its move.
-4. The result is displayed:
-   - 🎉 You Win!
-   - 💻 Computer Wins!
-   - 🤝 It's a Tie!
-
-5. Continue playing by clicking any button again.
-
----
-
-## Game Rules
-
-- Rock beats Scissors.
-- Scissors beats Paper.
-- Paper beats Rock.
-- If both choices are the same, the game is a Tie.
+1. Open the application in your browser.
+2. Click one of the following buttons:
+   - 🪨 Rock
+   - 📄 Paper
+   - ✂️ Scissors
+3. The computer randomly selects its move.
+4. The application compares both choices.
+5. The result is displayed on the screen.
+6. The scoreboard updates automatically.
+7. Continue playing by selecting another option.
 
 ---
 
-## Output
+# Game Rules
+
+- 🪨 Rock defeats ✂️ Scissors
+- ✂️ Scissors defeats 📄 Paper
+- 📄 Paper defeats 🪨 Rock
+- Same choices result in a Tie
+
+---
+
+# Output
 
 The application displays:
 
-- User Choice
+- Player Choice
 - Computer Choice
 - Game Result
+- Player Score
+- Computer Score
+- Tie Count
 
 ---
 
-## Future Enhancements
+# Screens
 
-- Add score tracking
+### Main Screen
+
+- Rock Button
+- Paper Button
+- Scissors Button
+- Scoreboard
+
+### Result Screen
+
+- Player Choice
+- Computer Choice
+- Winner
+- Updated Scores
+
+---
+
+# Future Enhancements
+
 - Add sound effects
 - Add animations
+- Store scores in a database
+- User login system
 - Multiplayer mode
-- Difficulty levels
-- Store game history
-- Responsive mobile design
+- Dark mode
+- Responsive mobile layout
+- Game history
+- Reset score button
 
 ---
 
-## Author
+# Learning Outcomes
 
-Developed using **Python Flask** for learning web application development.
+This project demonstrates:
+
+- Flask Web Framework
+- Python Programming
+- HTML and CSS Integration
+- Form Handling
+- Random Number Generation
+- Conditional Statements
+- Dynamic Web Pages using Jinja2
+
+---
+
+# Author
+
+**Project:** Rock Paper Scissors Web Application
+
+Developed using **Python**, **Flask**, **HTML**, and **CSS** for learning web development.
