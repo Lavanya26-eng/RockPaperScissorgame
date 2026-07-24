@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 choices = {
     "rock": "🪨",
-    "paper": "📄",
+    "papers": "📄",
     "scissors": "✂️"
 }
 
