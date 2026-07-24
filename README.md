@@ -119,8 +119,8 @@ The application displays:
 - Player Choice
 - Computer Choice
 - Game Result
-- Player Score
-- Computer Score
+- Player result
+- Computer result
 - Tie Count
 
 ---
